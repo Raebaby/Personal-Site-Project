@@ -1,0 +1,159 @@
+               
+body {
+  background-color: rgb(237, 228, 228);
+  display: block;
+  width: 100%;
+  overflow: scroll;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: rgb(233, 135, 135);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Navigation bar links */
+  .navbar a {
+    float: right; 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding:30px 30px; 
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+
+  /* Hover/mouse-over */
+  .navbar a:hover {
+    background-color: white; 
+    color: black; 
+  }
+  
+  .navbar a.active {
+    background-color: white; 
+    color: black; 
+}
+  /*HEADER*/
+  .name {
+    display: flex;
+    justify-content: center;
+    padding: 20px 400px; 
+    font-family: 'Playfair Display', serif;
+    font-size:175px;
+    border: 10px;
+    border-color: white rgb(233, 135, 135) white rgb(233, 135, 135);
+    border-style: dotted;
+  }
+  
+  /*QUOTE*/
+  .center {
+    text-align: center;
+    background-color: rgb(249, 194, 194);
+    padding: 14px 42px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .quote {
+    text-decoration: none; /* Remove underline */
+    font-family:'Arima';
+    font-size:50px;
+    }
+                                    /*Center*/
+
+
+/*First*/   
+.project1 {
+  background: rgb(224, 198, 94);
+  margin: 40px 40px 40px 40px;
+  display: table;
+  width: 800px;
+  height: 700px;
+  word-wrap: normal;
+}
+ .p1 {
+   font-size: 50px;
+   color: brown;
+ }
+
+ .para1 {
+   font-size: 30px;
+   margin: 10px 20px 50px 20px;
+   color: brown;
+ }
+ .pic1 {
+   margin: 0px 0px 50px 0px;
+ }
+
+/*Second*/
+.project2 {
+  background: rgb(156, 166, 228);
+  margin: 40px 40px 40px 40px;
+  display: table;
+  width: 800px;
+  height: 700px;
+  word-wrap: normal;
+}
+ .p2 {
+   font-size: 50px;
+   color: rgb(10, 28, 146);
+ }
+
+ .para2 {
+   font-size: 30px;
+   margin: 10px 20px 50px 20px;
+   color: rgb(41, 60, 180);
+ }
+ .pic2 {
+   margin: 0px 0px 50px 0px;
+ }
+
+
+/*Third*/
+.project3 {
+  background: rgb(225, 190, 236);
+  margin: 40px 40px 40px 40px;
+  display: table;
+  width: 800px;
+  height: 700px;
+  word-wrap: normal;
+}
+ .p3 {
+   font-size: 50px;
+   color:rgb(24, 5, 30);
+ }
+
+ .para3 {
+   font-size: 30px;
+   margin: 10px 20px 50px 20px;
+ }
+ .pic3 {
+   margin: 0px 0px 50px 0px;
+ }
+
+
+
+  /*Footer*/
+
+  .footer {
+    background-color:rgb(233, 135, 135);
+    /*position*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /*margin*/
+    width: 100%;
+    padding: 30px;
+  }
+
+
+    

@@ -1,0 +1,159 @@
+               
+body {
+  background-color: rgb(237, 228, 228);
+  display: block;
+  width: 100%;
+  overflow: scroll;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: rgb(233, 135, 135);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Navigation bar links */
+  .navbar a {
+    float: right; 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding:30px 30px; 
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+
+  /* Hover/mouse-over */
+  .navbar a:hover {
+    background-color: white; 
+    color: black; 
+  }
+  
+  .navbar a.active {
+    background-color: white; 
+    color: black; 
+}
+  /*HEADER*/
+  .name {
+    display: flex;
+    justify-content: center;
+    padding: 20px 400px; 
+    font-family: 'Playfair Display', serif;
+    font-size:175px;
+    border: 10px;
+    border-color: white rgb(233, 135, 135) white rgb(233, 135, 135);
+    border-style: dotted;
+  }
+  
+  /*QUOTE*/
+  .center {
+    text-align: center;
+    background-color: rgb(249, 194, 194);
+    padding: 14px 42px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .quote {
+    text-decoration: none; /* Remove underline */
+    font-family:'Arima';
+    font-size:50px;
+    }
+                                    /*Center*/
+
+
+/*First Section*/                             
+.boba {
+  display: flex;
+  flex-direction: row-reverse ;
+  justify-content: center;
+  justify-content:space-around;
+}
+  .firstsentence {
+    text-align: left;
+    font-size:60px;
+  }
+  .firstpara {
+    float: right;
+    text-align: right;
+    font-family:'Arima';
+    font-size:50px;
+    word-wrap: normal;
+  }
+
+.bobapic{
+  float: right;
+}
+
+
+/*Second Section*/
+.coding{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  justify-content:space-around;
+}
+.secondsentence {
+  text-align: center;
+  font-size:60px;}
+
+.secondpara {
+  float: left;
+  text-align: left;
+    font-family:'Arima';
+    font-size:50px;
+    word-wrap: normal;
+}
+
+.codingpic {
+  float: left;
+}
+
+/*Third Section*/
+
+.plants {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content:space-around;
+}
+
+.thirdsentence {
+  text-align: left;
+  font-size: 60px;
+}
+
+.thirdpara {
+  float: left;
+  text-align: right;
+  font-family:'Arima';
+  font-size:50px;
+  word-wrap: normal;
+}
+
+.plantpic {
+  float: right;
+}
+
+
+  /*Footer*/
+
+  .footer {
+    background-color:rgb(233, 135, 135);
+    /*position*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /*margin*/
+    width: 100%;
+    padding: 30px;
+  }
+
+
+    
